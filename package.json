@@ -1,0 +1,9 @@
+{
+  "name": "node-dg",
+  "version": "0.0.0",
+  "description": "node-dg",
+  "main": "server.js",
+  "author": {
+    "name": "pebbless"
+  }
+}
