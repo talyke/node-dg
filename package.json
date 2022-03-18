@@ -1,9 +1,26 @@
 {
-  "name": "node-dg",
+  "name": "dg-practice",
   "version": "0.0.0",
   "description": "node-dg",
   "main": "server.js",
-  "author": {
-    "name": "pebbless"
+  "author": "pebbless",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/talyke/node-dg.git"
+  },
+  "keywords": [
+    "api-tutorial-dg"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/talyke/node-dg/issues"
+  },
+  "homepage": "https://github.com/talyke/node-dg#readme",
+  "dependencies": {
+    "@deepgram/sdk": "^1.2.4",
+    "cross-fetch": "^3.1.5"
   }
 }
